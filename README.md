@@ -1,31 +1,31 @@
-# README
+# Project Overview
 
-This repository contains a set of R scripts for the analysis of the "Human Activity Recognition Using Smartphones Dataset" from the University of California Irvine (UCI).
+Welcome to the analysis repository for the "Human Activity Recognition Using Smartphones Dataset" from the University of California Irvine (UCI).
 
-## Scripts
+## Analysis Scripts
 
-- `run_analysis.R`: This script merges the training and test sets, extracts the measurements of the mean and standard deviation, uses descriptive activity names, appropriately labels the data set with descriptive variable names, and creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+- `run_analysis.R`: This script conducts comprehensive data analysis on the UCI HAR Dataset, including merging, feature extraction, and summary calculations.
 
-## Files
+## Documentation
 
-- `CodeBook.md`: This file describes the variables, the data, and any transformations or work performed on the data.
-- `README.md`: This file provides a detailed overview of the project, including information about the dataset, variables, transformations, and scripts used for analysis.
+- `CodeBook.md`: This document provides detailed information about the variables, data, and transformations applied during the analysis.
+- `README.md`: You are currently reading this file, which serves as an overview of the project, including dataset description, variable explanations, and transformation procedures.
 
 ## Dataset Description
 
-The "Human Activity Recognition Using Smartphones Dataset" contains data collected from the accelerometers of Samsung Galaxy S smartphones worn by 30 volunteers aged between 19 and 48 years. Each volunteer performed six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING. The dataset includes triaxial acceleration from the accelerometer and triaxial angular velocity from the gyroscope, along with activity labels and subject identifiers.
+The "Human Activity Recognition Using Smartphones Dataset" contains sensor data from Samsung Galaxy S smartphones worn by volunteers. The data captures various activities such as walking, sitting, and standing.
 
-## Variables
+## Variable Descriptions
 
-The dataset includes various variables representing measurements from the accelerometer and gyroscope in the X, Y, and Z axes, as well as derived variables such as mean, standard deviation, and magnitude. Refer to the `CodeBook.md` for a detailed description of all variables.
+The dataset consists of numerous variables capturing accelerometer and gyroscope measurements, along with derived features like mean, standard deviation, and magnitude.
 
-## Transformations
+## Transformation Procedures
 
-The analysis involved several transformations:
-1. Merging the training and test sets.
-2. Extracting only the measurements of the mean and standard deviation.
-3. Using descriptive activity names to name the activities in the data set.
-4. Appropriately labeling the data set with descriptive variable names.
-5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
+The analysis involves several key steps:
+1. Merging both training and test datasets.
+2. Extracting pertinent features related to mean and standard deviation.
+3. Assigning descriptive activity names.
+4. Appropriately labeling variables for clarity.
+5. Aggregating data to produce a tidy dataset for further analysis.
 
 
